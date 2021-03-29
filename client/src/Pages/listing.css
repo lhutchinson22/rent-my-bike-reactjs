@@ -1,0 +1,34 @@
+h2 {
+  display: block;
+}
+
+.btn-group {
+  padding-left: 5px;
+}
+
+#FilterBtn {
+  background-color: #196887;
+  border-color: #198787;
+  color: beige;
+  font-size: 15px;
+}
+
+.card {
+  width: 150%;
+}
+
+.card-header {
+  background-color: rgb(101, 168, 170);
+}
+
+.btn-outline-primary {
+  color: #fdfdfd;
+}
+
+.btn-outline-secondary {
+  color: #ffffff;
+}
+
+#listingContainer {
+  margin-top: 5%;
+}

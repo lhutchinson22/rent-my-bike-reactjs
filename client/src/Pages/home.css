@@ -1,0 +1,54 @@
+.parallax {
+  /* The image used */
+
+  /* Set a specific height */
+  min-height: 500px;
+  max-height: 1500px;
+
+  /* Create the parallax  scrolling effect */
+  /* background-attachment: fixed;
+  background-position: center; */
+  position: relative;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#text-jumbo {
+  padding-top: 150px;
+  font-size: 100px;
+  color: white;
+  opacity: 55%;
+}
+
+.welcome-div {
+  color: white;
+  text-align: center;
+  left: 50%;
+  background-color: #212529;
+  opacity: 0.9;
+}
+
+.btn-div {
+  margin: 0;
+  width: 100%;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  margin: 10px;
+  width: 175px;
+  height: 60px;
+}
+
+#text-jumbo {
+  padding-top: 50px;
+  font-size: 100px;
+  color: white;
+  opacity: 55%;
+}

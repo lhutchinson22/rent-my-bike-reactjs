@@ -1,0 +1,13 @@
+#accountBtn {
+    width: 80%;
+}
+
+
+.col-md-3 {
+    margin-top: 0.2%;
+}
+
+#accountInfo, #Rent-card, #Owned-card {
+    width: 100%;
+    margin-left: 5px;
+}
