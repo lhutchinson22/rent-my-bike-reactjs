@@ -3,7 +3,6 @@ import { useHistory } from "react-router-dom";
 import UserContext from "../Context/UserContext";
 import "./home.css";
 
-
 const Home = () => {
   const history = useHistory();
   const { userData } = useContext(UserContext);
@@ -18,7 +17,7 @@ const Home = () => {
         path = "/signup";
       }
     } catch (err) {
-      console.log(err)
+      console.log(err);
     }
     history.push(path);
   };
@@ -33,7 +32,7 @@ const Home = () => {
         path = "/signup";
       }
     } catch (err) {
-      console.log(err)
+      console.log(err);
     }
     history.push(path);
   };
@@ -42,18 +41,20 @@ const Home = () => {
     <div>
       <div className="parallax text-center">
         <p id="text-jumbo">Rent My Ride</p>
+        <div className="welcome-div">
+          <p style={{ color: "white" }}>
+            Grab a ride here, so you can get around quick out there.
+          </p>
+        </div>
       </div>
       <div className="btn-div">
         <button onClick={handleRentClick} className="btn btn-dark">
           Rent
         </button>
-      <br></br>
+        <br></br>
         <button onClick={handleReturnClick} className="btn btn-dark">
           Return
         </button>
-      </div>
-      <div className="welcome-div">
-        <p>Grab a ride here, so you can get around quick out there.</p>
       </div>
     </div>
   );

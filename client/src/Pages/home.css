@@ -1,13 +1,14 @@
 .parallax {
   /* The image used */
+  background-image: url("http://media2.giphy.com/media/l3vR4Nfdli0jnmF8c/giphy.gif");
 
   /* Set a specific height */
   min-height: 500px;
   max-height: 1500px;
 
   /* Create the parallax  scrolling effect */
-  /* background-attachment: fixed;
-  background-position: center; */
+  background-attachment: fixed;
+  background-position: center;
   position: relative;
 
   background-repeat: no-repeat;
@@ -23,18 +24,18 @@
 }
 
 .welcome-div {
-  color: white;
+  /* color: white; */
   text-align: center;
   left: 50%;
-  background-color: #212529;
+  /* background-color: #212529; */
   opacity: 0.9;
 }
 
 .btn-div {
-  margin: 0;
+  margin: auto;
   width: 100%;
   position: absolute;
-  top: 45%;
+  top: 65%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -42,7 +43,6 @@
 
 .btn {
   margin: 10px;
-  width: 175px;
   height: 60px;
 }
 
