@@ -1,4 +1,4 @@
-# Rent My Ride
+# Rent My Ride Reactjs
 
 ## Description
 
