@@ -2,7 +2,7 @@
 
 ## Description
 
-Share My Bike is a simple Fullstack MERN APP that makes it easy to rent, post, or return a bike in your community.
+Rent My Ride is a simple Fullstack MERN APP that makes it easy to rent, post, or return a bike in your community.
 
 ## User Story
 
