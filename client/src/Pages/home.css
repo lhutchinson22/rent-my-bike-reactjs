@@ -3,7 +3,7 @@
   background-image: url("http://media2.giphy.com/media/l3vR4Nfdli0jnmF8c/giphy.gif");
 
   /* Set a specific height */
-  min-height: 500px;
+  min-height: 400px;
   max-height: 1500px;
 
   /* Create the parallax  scrolling effect */
@@ -24,15 +24,12 @@
 }
 
 .welcome-div {
-  /* color: white; */
   text-align: center;
   left: 50%;
-  /* background-color: #212529; */
   opacity: 0.9;
 }
 
 .btn-div {
-  margin: auto;
   width: 100%;
   position: absolute;
   top: 65%;

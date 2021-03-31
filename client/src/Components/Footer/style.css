@@ -4,9 +4,14 @@
   text-align: center;
   position: relative;
   bottom: 0;
-  bottom: 0x;
   height: 150px;
   border-top: none;
-  margin-top: 75px;
+  padding-top: 200px;
   width: 100%;
 }
+
+/* @media (min-device-width: 576px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .card-footer {
+    position: static;
+  }
+} */
