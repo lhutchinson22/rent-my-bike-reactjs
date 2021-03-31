@@ -24,7 +24,7 @@ function Signup() {
         displayName,
       });
       localStorage.setItem("auth-token", userPost.data._id);
-      setUserData({ userId: userPost.data._id })
+      setUserData({ userId: userPost.data._id });
       history.push("/");
     } catch (err) {
       console.log(err);
@@ -32,8 +32,8 @@ function Signup() {
   };
 
   return (
-    <div>
-      <form className="sign-up-form" onSubmit={handleSubmit}>
+    <div className="sign-up-form">
+      <form onSubmit={handleSubmit} style={{ marginTop: "100px" }}>
         <h2
           style={{
             color: "white",
@@ -41,7 +41,6 @@ function Signup() {
             paddingBottom: "10px",
             fontSize: "62px",
             opacity: ".5",
-            marginLeft: "30%"
           }}
         >
           Sign Up

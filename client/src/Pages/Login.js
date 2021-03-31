@@ -6,12 +6,11 @@ import Row from "../Components/Row";
 import axios from "axios";
 import UserContext from "../Context/UserContext";
 import "./login.css";
-import bcrypt from "bcryptjs"
+import bcrypt from "bcryptjs";
 
 import "../Pages/login.css";
 
 const Login = () => {
-
   const { setUserData } = useContext(UserContext);
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
@@ -33,7 +32,11 @@ const Login = () => {
 
   return (
     <div>
-      <form className="login-form" onSubmit={handleSubmit}>
+      <form
+        className="login-form"
+        onSubmit={handleSubmit}
+        style={{ marginTop: "100px" }}
+      >
         <h2
           style={{
             color: "white",
@@ -41,7 +44,6 @@ const Login = () => {
             paddingBottom: "10px",
             fontSize: "62px",
             opacity: ".5",
-            marginLeft: "35%"
           }}
         >
           Login

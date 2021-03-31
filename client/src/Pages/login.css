@@ -31,9 +31,9 @@ body {
 }
 
 .login-form {
-  width: 500px;
-  margin-left: 10%;
-  padding-top: 70px;
+  width: 50%;
+  text-align: center;
+  margin: auto;
 }
 
 .form-control {

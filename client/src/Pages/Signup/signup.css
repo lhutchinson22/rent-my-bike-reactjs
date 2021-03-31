@@ -11,19 +11,18 @@
   width: 100%;
 }
 
-
-.sign-up-form{
-  width: 500px; 
-  margin-left: 10%;
-  padding-top: 70px;
+.sign-up-form {
+  width: 50%;
+  text-align: center;
+  margin: auto;
 }
 
 #signupbtn {
-    color: #fff;
-    background-color: #196887;
-    border-color: #198787;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+  color: #fff;
+  background-color: #196887;
+  border-color: #198787;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
