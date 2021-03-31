@@ -50,7 +50,7 @@ View your account page with settings and rent and own history.
 
 ## Finished Product
 
-<img src="rentbike.gif>
+<img src="rentbike.gif">
 
 Heroku : https://rent-my-bike-reactjs.herokuapp.com/
 
