@@ -52,7 +52,6 @@ View your account page with settings and rent and own history.
 
 <img src="rentbike.gif">
 
-Heroku : https://rent-my-bike-reactjs.herokuapp.com/
 
 ## Technologies
 
